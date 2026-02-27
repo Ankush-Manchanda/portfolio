@@ -36,7 +36,7 @@ export default function Greeting(props) {
                 <Button
                   text="⭐ Star Me On Github"
                   newTab={true}
-                  href="https://github.com/Ankush-Manchanda/masterportfolio"
+                  href="https://ankush-manchanda.github.io/masterportfolio/"
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
