@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Ankush's Portfolio",
   description:
-    "An AI & ML enthusiast passionate about building scalable and impactful solutions using data, code, and creativity.",
+    "A Data Analyst enthusiast passionate about building scalable and impactful solutions using data, code, and creativity.",
   og: {
     title: "Ankush Manchanda Portfolio",
     type: "website",
@@ -22,7 +22,7 @@ const greeting = {
   title: "Ankush Manchanda",
   logo_name: "AnkushManchanda\n",
   nickname: "ankush_codes\n",
-  subTitle: "\nB.Tech CSE (AI & ML) student passionate about real-time analytics, AI projects, and web development.",
+  subTitle: "\nB.Tech CSE (AI & ML) student passionate about real-time analytics, AI projects, and Data Analysis.",
   resumeLink: "https://drive.google.com/file/d/1Vjv2UU4ecsGXf-sgrXzBlS0m0OfOdaTZ/view?usp=drive_link",
   portfolio_repository: "https://github.com/ankush-manchanda",
   githubProfile: "https://github.com/ankush-manchanda",
@@ -59,7 +59,7 @@ const skills = {
         "⚡ Real-time object detection using YOLOv8 & OpenCV ",
         <br />,
         <br />,
-        "⚡ Data analysis and visualization using Python, R, Streamlit",
+        "⚡ Data analysis and visualization using Python, R, Streamlit, and Power BI",
         <br />,
         <br />,
         "⚡ Applied ML for analytics in retail and finance use cases",
@@ -171,6 +171,15 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Decoding Data",
+      subtitle: "- IBM SkillsBuild & CSRBOX",
+      logo_path: "ibm_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/19ojN_9ojVO6Jq_Wrq7FKM3UVuwYqi4AS/view?usp=sharing",
+      alt_name: "IBM",
+      color_code: "#1F70C199",
+    },
+    {
       title: "AI For Industry",
       subtitle: "- IBM SkillsBuild & CSRBOX",
       logo_path: "ibm_logo.png",
@@ -212,7 +221,18 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "AI & Data Analytics Intern",
+          title: "Data Analytics Intern",
+          company: "IBM SkillsBuild + CSRBOX",
+          company_url: "https://csrbox.org/IBM-SkillsBuild",
+          logo_path: "ibm_logo.png",
+          duration: "July 2025 - August 2025",
+          location: "Remote",
+          description:
+            "Built ML models and analytics dashboards for business-focused use cases, 	Worked with large datasets involving data preprocessing, visualization, and insight generation. ",
+          color: "#1F70C199",
+        },
+        {
+          title: "AI Intern",
           company: "IBM SkillsBuild + CSRBOX",
           company_url: "https://csrbox.org/IBM-SkillsBuild",
           logo_path: "ibm_logo.png",
@@ -255,13 +275,25 @@ const experience = {
           title: "Retail Store Analytics",
           company: "Personal Project",
           company_url:
-            "https://ankush-manchanda.github.io/retail-store-analysis.github.io/",
+            "https://ankush-manchanda.github.io/Retail-analytics/",
           logo_path: "project.jpeg",
           duration: "June-2025",
           location: "GitHub",
           description:
             "Built using YOLOv8, Streamlit, and OpenCV to detect footfall, analyze zone heatmaps, and visualize customer activity in real time.",
           color: "#00C853",
+        },
+        {
+          title: "Data Analytics Projects",
+          company: "Personal Project",
+          company_url:
+            "https://ankush-manchanda.github.io/Data_Analytics_Portfolio/",
+          logo_path: "data-analyst.jpeg",
+          duration: "Jan-2026",
+          location: "GitHub",
+          description:
+            "Built using Power BI and Python to detect revenue trends, analysing dataset, and visualize customer activity.",
+          color: "#8d54dc",
         },
         {
           title: "Inclusive Web",
@@ -316,7 +348,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "Here are some of the impactful projects I've built. These reflect my interests in AI, analytics, and web development.",
+    "Here are some of the impactful projects I've built. These reflect my interests in AI, and analytics.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -331,7 +363,7 @@ const contactPageData = {
   blogSection: {
     title: "Portfolio Projects",
     subtitle: "Explore my work on GitHub and deployed pages.",
-    link: "https://ankush-manchanda.github.io/retail-store-analysis.github.io/",
+    link: "https://ankush-manchanda.github.io/Data_Analytics_Portfolio/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
