@@ -1,7 +1,20 @@
 {
   "data": [
     {
-      "id": "proj-001",
+      "id": "proj-001",  
+      "name": "Data Analytics Portfolio",
+      "createdAt": "01-2026",
+      "description":"Collection of Power BI and Python-based dashboards analyzing sales, returns, and customer behavior across multiple datasets.",
+      "url": "https://github.com/Ankush-Manchanda/Data_Analytics_Portfolio",
+      "isFork": false,
+      "languages": [
+          { "name": "Power BI", "iconifyClass": "logos:powerbi" },
+          { "name": "Python", "iconifyClass": "logos:python" },
+          { "name": "Excel", "iconifyClass": "logos:microsoft-excel" }
+      ]
+    },
+    {
+      "id": "proj-002",
       "name": "Retail Store Analytics",
       "createdAt": "06-2025",
       "url": "https://ankush-manchanda.github.io/retail-store-analysis.github.io/", 
@@ -23,7 +36,7 @@
       ]
     },
     {
-      "id": "proj-002",
+      "id": "proj-003",
       "name": "Inclusive_Web",
       "createdAt": "06-2025",
       "url": "https://ankush-manchanda.github.io/inclusive_web/", 
@@ -45,7 +58,7 @@
       ]
     },
     {
-      "id": "proj-003",
+      "id": "proj-004",
       "name": "News Video Generator",
       "createdAt": "07-2025",
       "url": "https://ankush-manchanda.github.io/news-video-generator",
@@ -67,7 +80,7 @@
       ]
     },
     {
-      "id": "proj-004",
+      "id": "proj-005",
       "name": "SEO Blog Tool",
       "createdAt": "07-2025",
       "url": "https://ankush-manchanda.github.io/seo-blog-tool",
@@ -89,7 +102,7 @@
       ]
     },
     {
-      "id": "proj-005",
+      "id": "proj-006",
       "name": "Business to Tech (Requirement Analyzer)",
       "createdAt": "07-2025",
       "url": "https://ankush-manchanda.github.io/business_to_tech",
